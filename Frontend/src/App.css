@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	color: inherit;
+	background: transparent;
+	list-style: none;
+	text-decoration: none;
+	transition: all 0.3 cubic-bezier(0.23, 1, 0.32, 1);
+	word-wrap: break-word;
+	position: relative;
+	font-family: "Barlow Semi Condensed", sans-serif;
+}
+body {
+	min-height: 100vh;
+	background: aqua;
+	background-size: cover;
+	color: white;
+}
+@media screen and (max-width: 768px) {
+	body{
+		background: aqua;
+		background-size: cover;
+	}
+}
+
+button,
+span,
+a,
+li,
+label,
+svg,
+i,
+img{
+	cursor: pointer;
+}
+
+hr {
+	width: 98%;
+	border: 1px solid white;
+	margin: 10px auto;
+}
+p{
+    color: black;
+}
+
+sup{
+    font-size: 8px;
+    color: gray;
+    border: 1px solid gray;
+    padding: 0 2px;
+}

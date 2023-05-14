@@ -1,0 +1,11 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "nodemon index.ts"
+  },
+  "author": "Shivkumar Chauhan",
+  "license": "MIT"
+}
